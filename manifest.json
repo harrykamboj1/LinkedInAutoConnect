@@ -1,0 +1,19 @@
+{
+    "manifest_version":3,
+    "name":"LinkedIn AutoConnect",
+    "description":"Automatically click all 'Connect' buttons available on LinkedIn 'Search People'",
+    "permissions":["tabs", "activeTab","scripting"],
+    "host_permissions":["https://*.linkedin.com/*"],
+   
+
+    "action":{
+        "default_popup" :"popUpPage.html",
+        "default_title": "LinkedIn Connector"
+    },
+    "icons": {
+    "16": "icon16.png",
+    "128": "LinkedIn.png"
+  },
+  "version": "1.0"
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popUpPage.css" />
+    <title>LinkedIn AutoConnect</title>
+  </head>
+  <body style="min-width: 300px; min-height: 300px">
+    <div id="header">
+      <h3>LinkedIn Auto-Connect</h3>
+    </div>
+    <div id="body">
+      <span class="paragraph">
+        <p>Invitation Sent</p>
+      </span>
+      <span class="counter">
+        <div class="circle-small">
+          <div class="circle-small">
+            <div class="text" id="increment_text">0</div>
+            <svg>
+              <circle class="bg" cx="40" cy="40" r="37"></circle>
+              <circle
+                class="progress two"
+                id="progressBar"
+                cx="40"
+                cy="40"
+                r="37"
+              ></circle>
+            </svg>
+          </div>
+        </div>
+      </span>
+      <span class="actionBtn">
+        <button id="actionBtn">START CONNECTING</button>
+      </span>
+    </div>
+    <script src="popUpPage.js"></script>
+  </body>
+</html>
